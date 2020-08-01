@@ -38,7 +38,7 @@ function setup() {
     text('Press any key (from A - Z & 1 - 8) to start :)', windowWidth / 2, windowHeight / 2.3);
 
   } else if (windowWidth < 600) {
-    text('Tap for random letters!!', windowWidth / 2, windowHeight / 2.3);
+    text('Tap for random letters!', windowWidth / 2, windowHeight / 2.3);
 
   }
   pop();
@@ -60,17 +60,17 @@ function keyPressed() {
 }
 
 
-
-   function touchStarted() {
+   function  touchStarted() {
    if (windowWidth < 900) {
-   background(255);
-   ellipse(mouseX, mouseY, 5, 5);
-   let rand = round(random(Letters.length -1));
-   let order = Letters[rand];
-   let me ='img'+ [order];
+  	background(255);
+    ellipse(mouseX, mouseY, 5, 5);
 
-    image(imgA, windowWidth / 2, windowHeight / 2.3, 4500 / 9.5, 4083 / 8);
+    let rand = round(random(Letters.length -1));
+    let order = Letters[rand];
+    let me ='img'+ [order];
+
+    image(img[rand], windowWidth / 2, windowHeight / 2.3, 4500 / 9.5, 4083 / 8);
     return true;
+
   }
 }
-
