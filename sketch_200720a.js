@@ -63,10 +63,10 @@ function keyPressed() {
   push();
    function touchStarted() {
    if (windowWidth < 900) {
-  	background(0);
-    let rand = round(random(Letters.length -1));
-    let order = Letters[rand];
-    let me ='img'+ [order];
+   background(0);
+   let rand = round(random(Letters.length -1));
+   let order = Letters[rand];
+   let me ='img'+ [order];
 
     image(img[rand], windowWidth / 2, windowHeight / 2.3, 4500 / 9.5, 4083 / 8);
   }
