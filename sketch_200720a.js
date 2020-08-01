@@ -35,24 +35,14 @@ function setup() {
   textAlign(CENTER);
   fill('#aaaaaa');
   if (windowWidth > 600) {
-    text('Press any key (from A - Z & 1 - 8) to start :))', windowWidth / 2, windowHeight / 2.3);
+    text('Press any key (from A - Z & 1 - 8) to start :)', windowWidth / 2, windowHeight / 2.3);
+
   } else if (windowWidth < 600) {
     text('Tap for random letters!', windowWidth / 2, windowHeight / 2.3);
+
   }
   pop();
   }
-
-// function draw() {
-// background(255);
-//
-// if(loading) {
-//   pop();
-//   translate (width/2, height/2)
-//   stroke(5);
-//   line(0,0,100,0);
-//    push();
-//  }
-// }
 
 
 
@@ -63,14 +53,6 @@ function keyPressed() {
   background(255);
   let which=key.toUpperCase();
   let whichImage=Letters.indexOf(which);
-  // let plus = random("data/letters/1.png","data/letters/2.png","data/letters/3.png");
-  // let whichplus = subset(Letters,27,30);
-
- //
- // print(Letters.);
-  // if (keyPressed == "=") {
-  // image(img[whichplus], windowWidth / 2, windowHeight / 2.3, imageHeight, imageWidth);
-  // }
 
 
   fill(0);
