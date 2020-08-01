@@ -27,10 +27,6 @@ div.heading {
   padding: 15px;
 }
 
-h3 {
-display: none;
-}
-
 section {
 position: absolute;
 text-align:center;
@@ -72,6 +68,19 @@ h2 img {
  width: 80px;
 }
 
+h3 {
+  color: #aaaaaa;
+  font-size: 15px;
+  font-weight: 100;
+  margin: 0px 0px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+}
+footer h3 a {
+padding-left:0;
+color: #aaaaaa;
+}
+
 @media( max-width: 900px) {
 
   header, footer,h1,p,h3 {
@@ -87,5 +96,21 @@ h2 img {
    padding-right: 20px;
    width: 40px;
   }
+
+  h3 {
+    color: #aaaaaa;
+    display: block;
+    font-size: 10px;
+    font-weight: 100;
+    margin: 0px 0px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    text-align:center;
+  }
+  footer h3 a {
+  padding-left:0;
+  color: #aaaaaa;
+  }
+
 
 }
