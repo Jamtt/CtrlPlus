@@ -36,7 +36,7 @@ function setup() {
   fill('#aaaaaa');
   if (windowWidth > 600) {
     text('Press any key (from A - Z & 1 - 8) to start :)', windowWidth / 2, windowHeight / 2.3);
-    
+
   } else if (windowWidth < 600) {
     text('Tap for random letters!', windowWidth / 2, windowHeight / 2.3);
 
