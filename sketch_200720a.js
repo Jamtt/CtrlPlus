@@ -63,7 +63,7 @@ function keyPressed() {
 
    function touchStarted() {
    if (windowWidth < 900) {
-   background(0);
+   background(255);
    ellipse(mouseX, mouseY, 5, 5);
 //    let rand = round(random(Letters.length -1));
 //    let order = Letters[rand];
