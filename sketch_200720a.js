@@ -38,7 +38,7 @@ function setup() {
     text('Press any key (from A - Z & 1 - 8) to start :)', windowWidth / 2, windowHeight / 2.3);
 
   } else if (windowWidth < 600) {
-    text('Tap for random letters!', windowWidth / 2, windowHeight / 2.3);
+    text('Tap for random letters!!', windowWidth / 2, windowHeight / 2.3);
 
   }
   pop();
@@ -60,7 +60,7 @@ function keyPressed() {
 }
 
 
-   function  touchStarted() {
+   function  touchEnded() {
    if (windowWidth < 900) {
   	background(255);
     let rand = round(random(Letters.length -1));
