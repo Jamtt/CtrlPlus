@@ -60,7 +60,7 @@ function keyPressed() {
 }
 
 
-   function  touchEnded() {
+   function touchStarted() {
    if (windowWidth < 900) {
   	background(255);
     let rand = round(random(Letters.length -1));
