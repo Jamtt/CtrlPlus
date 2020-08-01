@@ -65,9 +65,9 @@ function keyPressed() {
    if (windowWidth < 900) {
    background(255);
    ellipse(mouseX, mouseY, 5, 5);
-//    let rand = round(random(Letters.length -1));
-//    let order = Letters[rand];
-//    let me ='img'+ [order];
+   let rand = round(random(Letters.length -1));
+   let order = Letters[rand];
+   let me ='img'+ [order];
 
     image(imgA, windowWidth / 2, windowHeight / 2.3, 4500 / 9.5, 4083 / 8);
   }
