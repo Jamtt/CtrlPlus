@@ -60,6 +60,7 @@ function keyPressed() {
 }
 
 
+  push();
    function touchStarted() {
    if (windowWidth < 900) {
   	background(255);
@@ -70,3 +71,4 @@ function keyPressed() {
     image(img[rand], windowWidth / 2, windowHeight / 2.3, 4500 / 9.5, 4083 / 8);
   }
 }
+  pop();
