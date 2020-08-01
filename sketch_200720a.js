@@ -70,6 +70,7 @@ function keyPressed() {
    let me ='img'+ [order];
 
     image(imgA, windowWidth / 2, windowHeight / 2.3, 4500 / 9.5, 4083 / 8);
+    return true;
   }
 }
 
