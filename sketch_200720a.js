@@ -60,10 +60,10 @@ function keyPressed() {
 
    function  touchStarted() {
    if (windowWidth < 900) {
-  	background(255);
-    ellipse(mouseX, mouseY, 5, 5);
-   textAlign(CENTER);
-   text('Sorry! Mobile site is currently down, please visit the desktop version.', windowWidth / 2, windowHeight / 2.3);
+//   	background(255);
+//     ellipse(mouseX, mouseY, 5, 5);
+//    textAlign(CENTER);
+//    text('Sorry! Mobile site is currently down, please visit the desktop version.', windowWidth / 2, windowHeight / 2.3);
     let rand = round(random(Letters.length -1));
     let order = Letters[rand];
   
