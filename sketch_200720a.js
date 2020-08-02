@@ -54,7 +54,7 @@ function keyPressed() {
 
 
   fill(0);
-  image(img[whichImage], windowWidth / 2, windowHeight / 2.3, imageHeight, imageWidth);
+  image(img[whichImage], windowWidth / 2, windowHeight / 2.3, imageHeight/1.1, imageWidth/1.1);
 }
 
 
