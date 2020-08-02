@@ -11,7 +11,7 @@ let Letters = ["A","B","C","D","E","F","G","H","I","J","K","J","L","M","N","O","
 
 function preload() {
   for (var i=0; i<Letters.length; i++) {
-    img[i] = loadImage("data/letters/"+Letters[i].toLowerCase()+".png");
+    img[i] = loadImage("data/letters/"+Letters[i].toLowerCase()+".jpg");
   }
 
 }
