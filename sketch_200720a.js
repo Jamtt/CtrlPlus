@@ -23,8 +23,6 @@ function setup() {
   background(255);
 
 
-
-
   if( windowWidth < 900 ) {
     textSize(15);
   } else if ( windowWidth > 900 ) {
@@ -64,10 +62,10 @@ function keyPressed() {
    if (windowWidth < 900) {
   	background(255);
     ellipse(mouseX, mouseY, 5, 5);
-
+   text('Mobile site is currently down, please visit the desktop version', windowWidth / 2, windowHeight / 2.3);
     let rand = round(random(Letters.length -1));
     let order = Letters[rand];
-    let me ='img'+ [order];
+  
 
     image(img[rand], windowWidth / 2, windowHeight / 2.3, 4500 / 9.5, 4083 / 8);
     return true;
