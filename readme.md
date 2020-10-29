@@ -1,3 +1,5 @@
-# Welcome to the coolest corner of the internet
+## JUST MY TYPE
 
-## Only coders allowed
+A Github repo hosting the creations of everyone who contributed to the CTRLPLUS event Just My Type. Feel free to visit the webiste [ctrlplus.club](https://www.ctrlplus.club/) and see the collection in an interactive way! 
+
+Visit our facebook page to see more of what we're planning over [Here.](https://www.facebook.com/groups/ctrlplusrmit)
